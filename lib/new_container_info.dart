@@ -8,6 +8,12 @@ class MyContainer extends StatelessWidget {
           title: Text('CONTAINER TITLE'),
           shadowColor: Colors.red,
         ),
-        body: Container(color: Colors.amber[300], child: Text('TRIAL')));
+        body: Container(
+            // width: double.infinity,
+            height: 50,
+            color: Colors.amber[300],
+            alignment: Alignment.center, // can delete width
+            // alignment: Alignment(1, -1),
+            child: Text('TRIAL IS GREATEST THING EVER')));
   }
 }
