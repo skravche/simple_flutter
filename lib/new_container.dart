@@ -19,7 +19,11 @@ class MyContainer extends StatelessWidget {
             ),
             alignment: Alignment.center,
             //width: 300,
-            margin: const EdgeInsets.all(30.0),
+            //margin: const EdgeInsets.all(30.0),
+            //margin: const EdgeInsets.fromLTRB(100, 10, 10, 250),
+            //margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 100),
+            margin: const EdgeInsets.only(top: 100),
+            // the same with padding
             padding: const EdgeInsets.all(0.0),
           ),
         ),
