@@ -5,7 +5,7 @@ class MyRowColumn extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('trying flutter layout'),
+        title: Text('Trying fucking flutter layout'),
       ),
       body: Container(
         color: Colors.blueGrey[400],
