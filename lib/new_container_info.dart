@@ -16,7 +16,12 @@ class MyContainer extends StatelessWidget {
           // alignment: Alignment(1, -1),
           padding: const EdgeInsets.all(25),
           margin: const EdgeInsets.symmetric(vertical: 5.0, horizontal: 20.0),
-          child: Text('TRIAL IS GREATEST THING EVER'),
+          child: Text(
+            'TRIAL IS GREATEST THING EVER',
+            style: TextStyle(
+              color: Colors.red,
+            ),
+          ),
         ));
   }
 }

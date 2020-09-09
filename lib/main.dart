@@ -8,7 +8,7 @@ import 'package:flutter/rendering.dart' show debugPaintSizeEnabled;
 // U need to change main() => to standart function
 
 void main() {
-  debugPaintSizeEnabled = true;
+  debugPaintSizeEnabled = false;
   return runApp(MyApp());
 }
 
