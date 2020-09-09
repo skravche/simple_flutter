@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
-//import 'package:simple_flutter_quiz/new_container.dart';
-import 'package:simple_flutter_quiz/new_container_info.dart';
+import 'package:simple_flutter_quiz/flex/flex_widgets.dart';
+// import 'package:simple_flutter_quiz/new_container.dart';
+// import 'package:simple_flutter_quiz/new_container_info.dart';
 // import 'package:simple_flutter_quiz/new_mycontainer.dart';
+import 'package:simple_flutter_quiz/flex/flex_widgets.dart';
+// import 'package:simple_flutter_quiz/lib/flex/flex_widgets.dart';
 
 // view block borders
 import 'package:flutter/rendering.dart' show debugPaintSizeEnabled;
@@ -18,7 +21,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Quiz App',
       theme: ThemeData(primarySwatch: Colors.indigo),
-      home: MyContainer(),
+      home: MyFlexWidget(),
     );
   }
 }
