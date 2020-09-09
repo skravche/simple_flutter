@@ -9,19 +9,16 @@ class MyContainer extends StatelessWidget {
           shadowColor: Colors.red,
         ),
         body: Container(
-          height: 100,
-          //width: double.minPositive,
-          color: Colors.amber[300],
-          alignment: Alignment.center, // can delete width
-          // alignment: Alignment(1, -1),
-          padding: const EdgeInsets.all(25),
-          margin: const EdgeInsets.symmetric(vertical: 5.0, horizontal: 20.0),
-          child: Text(
-            'TRIAL IS GREATEST THING EVER',
-            style: TextStyle(
-              color: Colors.red,
-            ),
-          ),
+          height: 150,
+          alignment: Alignment.center,
+          child: Text('Some text'),
+          decoration: BoxDecoration(
+              image: DecorationImage(
+                  image: Image.network(
+                          'https://linuxconfig.org/images/Focal-Fossa_Plain_WP_1920x1080.png')
+                      .image,
+                  fit: BoxFit.cover),
+              borderRadius: BorderRadius.circular(20)),
         ));
   }
 }
