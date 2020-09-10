@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:simple_flutter_quiz/home_page.dart';
+import 'package:simple_flutter_quiz/pages/home_page.dart';
 
 // view block borders
 import 'package:flutter/rendering.dart' show debugPaintSizeEnabled;
