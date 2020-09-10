@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:simple_flutter_quiz/row_column.dart';
+import 'package:simple_flutter_quiz/widgets_tests/row_column.dart';
 
 class MyFlexWidget extends StatelessWidget {
   // const MyFlex({Key key}) : super(key: key);
